@@ -33,3 +33,9 @@
 .result-block-container .result-block {
   opacity: 1;
 }
+
+.dropdown-menu {
+  height: 320px;
+  overflow-y: scroll;
+  width: 120;
+}

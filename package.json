@@ -25,6 +25,8 @@
     "@types/react-dom": "^16.9.8",
     "@types/react-router-dom": "^5.1.5",
     "@types/reactstrap": "^8.5.1",
+    "@types/react-bootstrap": "0.32.32",
+    "@types/react-beautiful-dnd": "13.1.4",
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "express-jwt": "^6.0.0",
@@ -38,7 +40,10 @@
     "react-router-dom": "^5.0.0",
     "react-scripts": "^5.0.1",
     "reactstrap": "^8.0.0",
-    "typescript": "^4.9.5"
+    "react-bootstrap": "2.7.4",
+    "typescript": "^4.9.5",
+    "react-beautiful-dnd": "13.1.0"
+
   },
   "devDependencies": {
     "@types/jest": "^29.5.1",

@@ -3,6 +3,7 @@ import Hero from "./Hero";
 import authConfig from "../auth_config.json";
 import { Auth0ContextInterface, withAuth0 } from '@auth0/auth0-react';
 import { Alert } from "reactstrap";
+import Filter from "./Filter";
 
 interface HomeProps {
   auth0: Auth0ContextInterface;
@@ -75,6 +76,7 @@ class Home extends Component<HomeProps> {
             {JSON.stringify(currentUser)}
           </div>
         }
+        <Filter auth0={this.props.auth0}/>
       </Fragment>
     );
   }
